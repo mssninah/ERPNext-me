@@ -1,0 +1,323 @@
+2025-04-22 14:15:31,088 [Job erpnext.localhost||da60af2a-8fce-469f-b100-ace7b760be5b]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 234, in execute_job
+    frappe.init(site, force=True)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 270, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1371, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1212, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1177, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1207, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext'
+
+2025-04-22 14:15:31,110 [Job erpnext.localhost||a1e70810-179c-4b5c-bf23-74a92838b9f2]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 234, in execute_job
+    frappe.init(site, force=True)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 270, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1371, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1212, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1177, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1207, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext'
+
+2025-04-22 14:15:31,131 [Job erpnext.localhost||6ab09245-163f-4300-80f5-381bbc8e0422]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 234, in execute_job
+    frappe.init(site, force=True)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 270, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1371, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1212, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1177, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1207, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext'
+
+2025-04-22 14:15:31,153 [Job erpnext.localhost||72655f0e-e3e3-4258-82f5-f6b0db51921d]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 234, in execute_job
+    frappe.init(site, force=True)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 270, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1371, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1212, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1177, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1207, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext'
+
+2025-04-22 14:15:31,175 [Job erpnext.localhost||00f53c5c-15fc-43a9-95b0-e1d405b159b0]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 234, in execute_job
+    frappe.init(site, force=True)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 270, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1371, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1212, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1177, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1207, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext'
+
+2025-04-22 14:15:31,197 [Job erpnext.localhost||735a3554-3d76-4c71-a971-16b636a2e774]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 234, in execute_job
+    frappe.init(site, force=True)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 270, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1371, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1212, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1177, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1207, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext'
+
+2025-04-22 14:15:31,217 [Job erpnext.localhost||91fc7e5a-32ef-46b5-85b0-72b70e1d5983]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 234, in execute_job
+    frappe.init(site, force=True)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 270, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1371, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1212, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1177, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1207, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext'
+
+2025-04-22 14:15:31,242 [Job erpnext.localhost||6fa2b38e-bfad-49bc-bf7d-84671260965a]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 234, in execute_job
+    frappe.init(site, force=True)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 270, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1371, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1212, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1177, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1207, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext'
+
+2025-04-22 14:15:31,272 [Job erpnext.localhost||bb336fe4-b9db-4933-9dd9-ff411c580ce4]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 234, in execute_job
+    frappe.init(site, force=True)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 270, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1371, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1212, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1177, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1207, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext'
+
+2025-04-22 14:15:31,309 [Job erpnext.localhost||3274b306-387d-4be5-9a99-ae8b2d1b3a86]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 234, in execute_job
+    frappe.init(site, force=True)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 270, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1371, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1212, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1177, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1207, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext'
+
+2025-04-22 14:15:31,339 [Job erpnext.localhost||3cb39059-8b19-439c-a3a9-6298abcd19bf]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 234, in execute_job
+    frappe.init(site, force=True)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 270, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1371, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1212, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1177, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1207, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext'
+
+2025-04-22 14:16:01,124 Could not connect to Redis instance: Connection closed by server. Retrying in 2 seconds...
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/erpnext/erpnext/accounts/utils.py:1114: V16FrappeDeprecationWarning: frappe.utils.data.get_number_format_info is deprecated.
+It was marked on unknown for removal from v16 with note: Use `NumberFormat.from_string()` from `frappe.utils.number_format` instead
+  precision = get_number_format_info(number_format)[2]
