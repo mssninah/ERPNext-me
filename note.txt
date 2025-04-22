@@ -1,0 +1,15 @@
+
+
+mdp maria db : 123
+
+administrator frappe mdp : admin
+
+
+
+
+### Informations de connexion
+
+- Mot de passe administrateur (Administrator) : `admin`  
+- Mot de passe MySQL : `123`
+
+---
