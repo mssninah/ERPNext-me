@@ -2,5 +2,6 @@
  "db_name": "_5d2b141bfad9bb41",
  "db_password": "taFgzNYIlhavI6DW",
  "db_type": "mariadb",
- "db_user": "_5d2b141bfad9bb41"
+ "db_user": "_5d2b141bfad9bb41",
+ "developer_mode": 1
 }
