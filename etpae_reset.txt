@@ -1,0 +1,31 @@
+Étape 1 : Créer l’interface utilisateur (Frontend)
+
+    Ajouter un formulaire avec une liste déroulante pour sélectionner un module.
+
+    Afficher dynamiquement les Doctypes associés au module sélectionné.
+
+    Ajouter un bouton "Reset Data" qui déclenchera l’effacement des données de tous les Doctypes listés.
+
+Étape 2 : Méthodes backend nécessaires (API)
+
+    Une API pour récupérer tous les modules disponibles (via Module Def).
+
+    Une API pour obtenir les Doctypes associés à un module sélectionné.
+
+    Une API pour effacer les données des Doctypes associés.
+
+Étape 3 : Intégrer la logique dans le fichier JS
+
+    Ajouter un champ de sélection (select).
+
+    Afficher les Doctypes dans une liste ou tableau lorsqu’un module est sélectionné.
+
+    Implémenter l’appel à l’API Reset Data pour supprimer les données.
+
+Étape 4 : Tester et déboguer
+
+    Vérifiez que les modules sont correctement récupérés et affichés.
+
+    Assurez-vous que les Doctypes associés s’affichent correctement.
+
+    Validez que le bouton "Reset Data" efface bien les données.
