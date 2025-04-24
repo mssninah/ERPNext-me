@@ -53,3 +53,75 @@
 2025-04-23 07:25:58,345 INFO /home/ninah/.local/bin/bench worker
 2025-04-23 07:25:58,370 INFO /home/ninah/.local/bin/bench serve --port 8000
 2025-04-23 07:25:58,502 INFO /home/ninah/.local/bin/bench watch
+2025-04-23 07:51:04,395 INFO /home/ninah/.local/bin/bench restart
+2025-04-23 07:51:06,502 INFO /home/ninah/.local/bin/bench start
+2025-04-23 07:51:06,852 INFO /home/ninah/.local/bin/bench watch
+2025-04-23 07:51:06,887 INFO /home/ninah/.local/bin/bench schedule
+2025-04-23 07:51:06,954 INFO /home/ninah/.local/bin/bench worker
+2025-04-23 07:51:06,961 INFO /home/ninah/.local/bin/bench serve --port 8000
+2025-04-23 08:00:40,634 INFO /home/ninah/.local/bin/bench restart
+2025-04-23 08:00:42,880 INFO /home/ninah/.local/bin/bench start
+2025-04-23 08:00:43,220 INFO /home/ninah/.local/bin/bench schedule
+2025-04-23 08:00:43,256 INFO /home/ninah/.local/bin/bench worker
+2025-04-23 08:00:43,295 INFO /home/ninah/.local/bin/bench serve --port 8000
+2025-04-23 08:00:43,335 INFO /home/ninah/.local/bin/bench watch
+2025-04-23 08:21:06,374 INFO /home/ninah/.local/bin/bench console
+2025-04-23 08:21:14,648 INFO /home/ninah/.local/bin/bench console
+2025-04-23 12:00:01,367 INFO /home/ninah/.local/bin/bench --verbose --site all backup
+2025-04-23 13:49:57,103 INFO /home/ninah/.local/bin/bench restart
+2025-04-23 13:49:58,737 INFO /home/ninah/.local/bin/bench start
+2025-04-23 13:49:59,139 INFO /home/ninah/.local/bin/bench watch
+2025-04-23 13:49:59,150 INFO /home/ninah/.local/bin/bench worker
+2025-04-23 13:49:59,174 INFO /home/ninah/.local/bin/bench schedule
+2025-04-23 13:49:59,297 INFO /home/ninah/.local/bin/bench serve --port 8000
+2025-04-23 14:02:20,914 INFO /home/ninah/.local/bin/bench reload
+2025-04-23 14:02:25,347 INFO /home/ninah/.local/bin/bench start
+2025-04-23 14:02:25,848 INFO /home/ninah/.local/bin/bench serve --port 8000
+2025-04-23 14:02:25,866 INFO /home/ninah/.local/bin/bench schedule
+2025-04-23 14:02:26,157 INFO /home/ninah/.local/bin/bench watch
+2025-04-23 14:02:26,526 INFO /home/ninah/.local/bin/bench worker
+2025-04-23 14:03:13,944 INFO /home/ninah/.local/bin/bench start
+2025-04-23 14:03:14,345 INFO /home/ninah/.local/bin/bench schedule
+2025-04-23 14:03:14,378 INFO /home/ninah/.local/bin/bench worker
+2025-04-23 14:03:14,410 INFO /home/ninah/.local/bin/bench serve --port 8000
+2025-04-23 14:03:14,460 INFO /home/ninah/.local/bin/bench watch
+2025-04-23 15:11:49,654 INFO /home/ninah/.local/bin/bench start
+2025-04-23 15:11:50,043 INFO /home/ninah/.local/bin/bench serve --port 8000
+2025-04-23 15:11:50,049 INFO /home/ninah/.local/bin/bench schedule
+2025-04-23 15:11:50,050 INFO /home/ninah/.local/bin/bench worker
+2025-04-23 15:11:50,060 INFO /home/ninah/.local/bin/bench watch
+2025-04-23 15:12:43,056 INFO /home/ninah/.local/bin/bench reload-doc erpnext integrations workspace
+2025-04-23 15:13:44,319 INFO /home/ninah/.local/bin/bench --site erpnext.localhost reload-doc erpnext integrations workspace
+2025-04-23 15:14:25,014 INFO /home/ninah/.local/bin/bench --site erpnext.localhost reload-doc erpnext_integrations workspace
+2025-04-23 15:15:18,566 INFO /home/ninah/.local/bin/bench --site erpnext.localhost reload-doc erpnext_integrations workspace Eval-Perso
+2025-04-23 15:15:35,578 INFO /home/ninah/.local/bin/bench --site erpnext.localhost clear-cache
+2025-04-23 15:15:48,659 INFO /home/ninah/.local/bin/bench start
+2025-04-23 15:15:49,384 INFO /home/ninah/.local/bin/bench watch
+2025-04-23 15:15:49,578 INFO /home/ninah/.local/bin/bench worker
+2025-04-23 15:15:49,695 INFO /home/ninah/.local/bin/bench serve --port 8000
+2025-04-23 15:15:49,862 INFO /home/ninah/.local/bin/bench schedule
+2025-04-23 15:34:34,069 INFO /home/ninah/.local/bin/bench start
+2025-04-23 15:34:34,678 INFO /home/ninah/.local/bin/bench serve --port 8000
+2025-04-23 15:34:35,529 INFO /home/ninah/.local/bin/bench schedule
+2025-04-23 15:34:35,712 INFO /home/ninah/.local/bin/bench worker
+2025-04-23 15:34:35,872 INFO /home/ninah/.local/bin/bench watch
+2025-04-23 16:11:32,030 INFO /home/ninah/.local/bin/bench start
+2025-04-23 16:11:32,627 INFO /home/ninah/.local/bin/bench schedule
+2025-04-23 16:11:33,239 INFO /home/ninah/.local/bin/bench watch
+2025-04-23 16:11:34,051 INFO /home/ninah/.local/bin/bench serve --port 8000
+2025-04-23 16:11:34,199 INFO /home/ninah/.local/bin/bench worker
+2025-04-23 16:53:56,670 INFO /home/ninah/.local/bin/bench start
+2025-04-23 16:53:57,236 INFO /home/ninah/.local/bin/bench serve --port 8000
+2025-04-23 16:53:57,262 INFO /home/ninah/.local/bin/bench schedule
+2025-04-23 16:53:57,273 INFO /home/ninah/.local/bin/bench worker
+2025-04-23 16:53:57,297 INFO /home/ninah/.local/bin/bench watch
+2025-04-23 18:31:07,428 INFO /home/ninah/.local/bin/bench start
+2025-04-23 18:31:07,763 INFO /home/ninah/.local/bin/bench schedule
+2025-04-23 18:31:07,828 INFO /home/ninah/.local/bin/bench worker
+2025-04-23 18:31:07,831 INFO /home/ninah/.local/bin/bench serve --port 8000
+2025-04-23 18:31:07,836 INFO /home/ninah/.local/bin/bench watch
+2025-04-24 07:45:38,290 INFO /home/ninah/.local/bin/bench start
+2025-04-24 07:45:38,637 INFO /home/ninah/.local/bin/bench watch
+2025-04-24 07:45:38,669 INFO /home/ninah/.local/bin/bench worker
+2025-04-24 07:45:38,740 INFO /home/ninah/.local/bin/bench serve --port 8000
+2025-04-24 07:45:38,777 INFO /home/ninah/.local/bin/bench schedule

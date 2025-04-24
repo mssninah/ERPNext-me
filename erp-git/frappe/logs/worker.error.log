@@ -357,3 +357,949 @@ It was marked on unknown for removal from v16 with note: Use `NumberFormat.from_
   from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
 /home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
   from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-04-23 08:12:00,578 [Job erpnext.localhost||scheduled_job||g680mcdoat]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 257, in execute_job
+    for before_job_task in frappe.get_hooks("before_job"):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1315, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1281, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/erpnext/erpnext/hooks.py", line 14
+    	{
+    	^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2025-04-23 08:12:00,619 [Job erpnext.localhost||scheduled_job||g68kmjh3qj]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 257, in execute_job
+    for before_job_task in frappe.get_hooks("before_job"):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1315, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1281, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/erpnext/erpnext/hooks.py", line 14
+    	{
+    	^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2025-04-23 08:12:00,655 [Job erpnext.localhost||scheduled_job||g67fqunb8v]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 257, in execute_job
+    for before_job_task in frappe.get_hooks("before_job"):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1315, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1281, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/erpnext/erpnext/hooks.py", line 14
+    	{
+    	^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2025-04-23 08:12:00,695 [Job erpnext.localhost||scheduled_job||g68ts2eck2]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 257, in execute_job
+    for before_job_task in frappe.get_hooks("before_job"):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1315, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1281, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/erpnext/erpnext/hooks.py", line 14
+    	{
+    	^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2025-04-23 08:12:00,733 [Job erpnext.localhost||scheduled_job||g681ajmshn]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 257, in execute_job
+    for before_job_task in frappe.get_hooks("before_job"):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1315, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1281, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/erpnext/erpnext/hooks.py", line 14
+    	{
+    	^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2025-04-23 08:16:00,686 [Job erpnext.localhost||scheduled_job||g680ktvcag]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 257, in execute_job
+    for before_job_task in frappe.get_hooks("before_job"):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1315, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1281, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/erpnext/erpnext/hooks.py", line 14
+    	{
+    	^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2025-04-23 08:16:00,718 [Job erpnext.localhost||scheduled_job||g68kmjh3qj]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 257, in execute_job
+    for before_job_task in frappe.get_hooks("before_job"):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1315, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1281, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/erpnext/erpnext/hooks.py", line 14
+    	{
+    	^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2025-04-23 08:16:00,750 [Job erpnext.localhost||scheduled_job||g68ipkcr5c]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 257, in execute_job
+    for before_job_task in frappe.get_hooks("before_job"):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1315, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1281, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/erpnext/erpnext/hooks.py", line 14
+    	{
+    	^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2025-04-23 08:16:00,781 [Job erpnext.localhost||scheduled_job||g68ts2eck2]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 257, in execute_job
+    for before_job_task in frappe.get_hooks("before_job"):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1315, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1281, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/erpnext/erpnext/hooks.py", line 14
+    	{
+    	^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2025-04-23 08:16:00,814 [Job erpnext.localhost||scheduled_job||g68e6aa8h1]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 257, in execute_job
+    for before_job_task in frappe.get_hooks("before_job"):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1315, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1281, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/erpnext/erpnext/hooks.py", line 14
+    	{
+    	^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2025-04-23 08:16:00,842 [Job erpnext.localhost||scheduled_job||g68ecib4r4]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 257, in execute_job
+    for before_job_task in frappe.get_hooks("before_job"):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1315, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1281, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/erpnext/erpnext/hooks.py", line 14
+    	{
+    	^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2025-04-23 08:16:00,871 [Job erpnext.localhost||scheduled_job||g680uchndg]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 257, in execute_job
+    for before_job_task in frappe.get_hooks("before_job"):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1315, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1281, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/erpnext/erpnext/hooks.py", line 14
+    	{
+    	^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2025-04-23 08:16:00,900 [Job erpnext.localhost||scheduled_job||g68begr2ai]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 257, in execute_job
+    for before_job_task in frappe.get_hooks("before_job"):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1315, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1281, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/erpnext/erpnext/hooks.py", line 14
+    	{
+    	^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2025-04-23 08:16:00,930 [Job erpnext.localhost||scheduled_job||hq98n33vp4]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 257, in execute_job
+    for before_job_task in frappe.get_hooks("before_job"):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1315, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1281, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/erpnext/erpnext/hooks.py", line 14
+    	{
+    	^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2025-04-23 08:16:00,959 [Job erpnext.localhost||scheduled_job||g680mcdoat]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 257, in execute_job
+    for before_job_task in frappe.get_hooks("before_job"):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1315, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1281, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/erpnext/erpnext/hooks.py", line 14
+    	{
+    	^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2025-04-23 08:16:00,987 [Job erpnext.localhost||scheduled_job||g681ajmshn]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 257, in execute_job
+    for before_job_task in frappe.get_hooks("before_job"):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1315, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1281, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/erpnext/erpnext/hooks.py", line 14
+    	{
+    	^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2025-04-23 08:16:01,015 [Job erpnext.localhost||scheduled_job||g686mfi4g2]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 257, in execute_job
+    for before_job_task in frappe.get_hooks("before_job"):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1315, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1281, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/erpnext/erpnext/hooks.py", line 14
+    	{
+    	^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+2025-04-23 08:16:01,044 [Job erpnext.localhost||scheduled_job||g67fqunb8v]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/worker.py", line 1643, in perform_job
+    return_value = job.perform()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1344, in perform
+    self._result = self._execute()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/rq/job.py", line 1378, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/background_jobs.py", line 257, in execute_job
+    for before_job_task in frappe.get_hooks("before_job"):
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1315, in get_hooks
+    hooks = _site_cached_load_app_hooks()
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/utils/caching.py", line 157, in site_cache_wrapper
+    result = func(*args, **kwargs)
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1281, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/frappe/frappe/__init__.py", line 1148, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/apps/erpnext/erpnext/hooks.py", line 14
+    	{
+    	^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-04-23 15:11:43,899 Could not connect to Redis instance: Connection closed by server. Retrying in 2 seconds...
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+2025-04-23 20:32:41,695 Could not connect to Redis instance: Connection closed by server. Retrying in 2 seconds...
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+/home/ninah/Eval/erp/ERPNext-me/erp-git/frappe/env/lib/python3.10/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4

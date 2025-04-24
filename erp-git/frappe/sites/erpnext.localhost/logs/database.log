@@ -1739,3 +1739,21 @@ ALTER TABLE `tabAddress` MODIFY `is_shipping_address` tinyint NOT NULL DEFAULT 0
 ALTER TABLE `tabContact` ADD COLUMN `is_billing_contact` tinyint NOT NULL DEFAULT 0
 2025-04-22 14:15:32,773 WARNING database DDL Query made to DB:
 ALTER TABLE `tabContact` MODIFY `sync_with_google_contacts` tinyint NOT NULL DEFAULT 0, MODIFY `is_primary_contact` tinyint NOT NULL DEFAULT 0, MODIFY `unsubscribed` tinyint NOT NULL DEFAULT 0, MODIFY `pulled_from_google_contacts` tinyint NOT NULL DEFAULT 0
+2025-04-23 18:54:53,406 WARNING database DDL Query made to DB:
+create table `tabConfig-Ninah` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci

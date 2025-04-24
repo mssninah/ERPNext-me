@@ -13,3 +13,7 @@ administrator frappe mdp : admin
 - Mot de passe MySQL : `123`
 
 ---
+
+
+
+bench --site erpnext.localhost reload-doc erpnext_integrations workspace Eval-Perso
